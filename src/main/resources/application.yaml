@@ -1,0 +1,18 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/accountdb
+    username: postgres
+    password: postgres
+
+  flyway:
+    url: jdbc:postgresql://localhost:5432/accountdb
+    user: postgres
+    password: postgres
+
+logging:
+  level:
+    root: INFO
+  charset:
+    console: UTF-8
+
+
